@@ -19,7 +19,8 @@
     "lint": "tsdx lint",
     "prepare": "tsdx build",
     "size": "size-limit",
-    "analyze": "size-limit --why"
+    "analyze": "size-limit --why",
+    "postinstall": "yarn build"
   },
   "peerDependencies": {},
   "husky": {
